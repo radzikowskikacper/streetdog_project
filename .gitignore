@@ -8,3 +8,5 @@
 .sconsign.dblite
 
 *.o
+
+libs

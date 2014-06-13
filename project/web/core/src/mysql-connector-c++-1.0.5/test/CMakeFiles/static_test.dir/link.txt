@@ -1,0 +1,1 @@
+/usr/bin/c++         CMakeFiles/static_test.dir/static_test.o  -o static_test -rdynamic ../driver/libmysqlcppconn.so.1.0.5 -lmysqlclient_r -lpthread -lz -lm -ldl -Wl,-rpath,/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/driver 

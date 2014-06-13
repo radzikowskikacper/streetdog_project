@@ -1,0 +1,592 @@
+Determining size of __int8 failed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2867291454/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2867291454.dir/build.make CMakeFiles/cmTryCompileExec2867291454.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2867291454.dir/HAVE_MS_INT8.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2867291454.dir/HAVE_MS_INT8.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:17:22: error: ‘__int8’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int8))
+                      ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2867291454.dir/HAVE_MS_INT8.c.o] Error 1
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2867291454/fast] Error 2
+
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int8 failed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec427610783/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec427610783.dir/build.make CMakeFiles/cmTryCompileExec427610783.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec427610783.dir/HAVE_MS_UINT8.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec427610783.dir/HAVE_MS_UINT8.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec427610783.dir/HAVE_MS_UINT8.c.o] Error 1
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec427610783/fast] Error 2
+
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3770810282/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3770810282.dir/build.make CMakeFiles/cmTryCompileExec3770810282.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3770810282.dir/HAVE_MS_INT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3770810282.dir/HAVE_MS_INT16.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:17:22: error: ‘__int16’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int16))
+                      ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3770810282.dir/HAVE_MS_INT16.c.o] Error 1
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3770810282/fast] Error 2
+
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec939638489/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec939638489.dir/build.make CMakeFiles/cmTryCompileExec939638489.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec939638489.dir/HAVE_MS_UINT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec939638489.dir/HAVE_MS_UINT16.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec939638489.dir/HAVE_MS_UINT16.c.o] Error 1
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec939638489/fast] Error 2
+
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3187521224/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3187521224.dir/build.make CMakeFiles/cmTryCompileExec3187521224.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3187521224.dir/HAVE_MS_INT32.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3187521224.dir/HAVE_MS_INT32.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:17:22: error: ‘__int32’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int32))
+                      ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3187521224.dir/HAVE_MS_INT32.c.o] Error 1
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3187521224/fast] Error 2
+
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int32 failed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3163139650/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3163139650.dir/build.make CMakeFiles/cmTryCompileExec3163139650.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3163139650.dir/HAVE_MS_UINT32.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3163139650.dir/HAVE_MS_UINT32.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3163139650.dir/HAVE_MS_UINT32.c.o] Error 1
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3163139650/fast] Error 2
+
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec840557579/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec840557579.dir/build.make CMakeFiles/cmTryCompileExec840557579.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec840557579.dir/HAVE_MS_INT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec840557579.dir/HAVE_MS_INT64.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec840557579.dir/HAVE_MS_INT64.c.o] Error 1
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec840557579/fast] Error 2
+
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec913806274/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec913806274.dir/build.make CMakeFiles/cmTryCompileExec913806274.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec913806274.dir/HAVE_MS_UINT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec913806274.dir/HAVE_MS_UINT64.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec913806274.dir/HAVE_MS_UINT64.c.o] Error 1
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec913806274/fast] Error 2
+
+/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
