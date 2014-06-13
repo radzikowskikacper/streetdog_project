@@ -20,7 +20,7 @@ def clean_mysql_lib(target=None, source=None, env=None):
     os.system('make -C {0} clean'.format(source[0]))
 
 mysqlmkfile = env.Command(mysqlsrcdir.path + 'Makefile', mysqlsrcdir, build_sql_makefile)
-mysqllib = env.Command(libdir.path + 'libmysqlcppconn-static.a', mysqlsrcdir, build_mysql_lib)
+mysqllib = env.Command(libdir.path + '/libmysqlcppconn-static.a', mysqlsrcdir, build_mysql_lib)
 
 core = env.Program('streetDog - core', [Glob('threads/*.cpp'), Glob('*.cpp')], 
             LIBS=[Split('boost_system pthread rt boost_thread boost_date_time mysqlcppconn-static mysqlclient')], 

@@ -18,6 +18,8 @@
 #include <stdlib.h>
 #include <memory>
 
+#include <stdio.h>
+
 #include <cppconn/resultset.h>
 #include "mysql_res_wrapper.h"
 
