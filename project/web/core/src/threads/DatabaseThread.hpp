@@ -9,12 +9,12 @@
 #define DATABASETHREAD_HPP_
 
 #include "BaseThread.hpp"
-#include "../../libs/mysql/mysql_connection.h"
-#include "../../libs/mysql/cppconn/driver.h"
-#include "../../libs/mysql/cppconn/exception.h"
-#include "../../libs/mysql/cppconn/resultset.h"
-#include "../../libs/mysql/cppconn/statement.h"
-#include "../../libs/mysql/cppconn/prepared_statement.h"
+#include "../../includes/mysql/mysql_connection.h"
+#include "../../includes/mysql/cppconn/driver.h"
+#include "../../includes/mysql/cppconn/exception.h"
+#include "../../includes/mysql/cppconn/resultset.h"
+#include "../../includes/mysql/cppconn/statement.h"
+#include "../../includes/mysql/cppconn/prepared_statement.h"
 #include "../objs/Exceptions.hpp"
 
 class DatabaseThread : public BaseThread
