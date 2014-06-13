@@ -14,7 +14,7 @@ def build_sql_makefile(target=None, source=None, env=None):
 
 def build_mysql_lib(target=None, source=None, env=None):
     os.system('make -C {0} mysqlcppconn-static'.format(source[0].path))
-    os.system('mv driver/libmysqlcppconn-static.a {1}'.format(source[0], target[0]))
+    os.system('mv {0}/driver/libmysqlcppconn-static.a {1}'.format(source[0], target[0]))
     
 def clean_mysql_lib(target=None, source=None, env=None):
     os.system('make -C {0} clean'.format(source[0]))
