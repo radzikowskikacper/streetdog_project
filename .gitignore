@@ -1,1 +1,6 @@
 .fuse_hidden*
+
+.project
+.cproject
+.pydevproject
+.settings
