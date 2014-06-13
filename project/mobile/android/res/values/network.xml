@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="base_server_url">http://87.207.222.86:8080/</string>
+    <string name="users_server_url">users/</string>
+    <string name="tracks_server_url">tracks/</string>
+    <string name="track_server_url">track/</string>
+    <string name="events_server_url">events/</string>
+    <string name="poller_server_url">poll/</string>
+    
+    <string name="charset">UTF-8</string>
+    <integer name="connect_timeout">5000</integer>
+    
+    <string name="connection_established">Nawiązano połączenie z siecią</string>
+    
+    
+    <string name="error_no_connection">Brak połączenia z siecią</string>
+    <string name="error_malformed_url">Niepoprawny adres URL</string>
+    <string name="error_unknown_host">Nieznany host</string>
+    <string name="error_io">Błąd komunikacji z serwerem</string>
+	<string name="encoding_not_supported">Kodowanie nie jest obsłg</string>
+	<string name="error_string_to_number_conversion">Zły format danych</string>
+	<string name="error_json">Błąd formatu JSON</string>
+	<string name="error_timeout">Przekroczono czas oczekiwania na połączenie</string>
+</resources>

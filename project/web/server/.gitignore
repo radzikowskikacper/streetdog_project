@@ -1,0 +1,8 @@
+*.pyc
+
+venv/bin
+venv/include
+venv/lib
+venv/local
+
+databridge.so
