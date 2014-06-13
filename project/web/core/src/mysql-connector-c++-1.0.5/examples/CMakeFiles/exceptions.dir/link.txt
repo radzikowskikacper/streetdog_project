@@ -1,1 +1,0 @@
-/usr/bin/c++         CMakeFiles/exceptions.dir/exceptions.o  -o exceptions  -L/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/cppconn -rdynamic ../driver/libmysqlcppconn-static.a -lmysqlclient_r -lpthread -lz -lm -ldl -Wl,-rpath,/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/cppconn 
