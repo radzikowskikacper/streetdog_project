@@ -1,6 +1,22 @@
+import os
+
+libpath = '../libs/'
 env = Environment()
 env.Append(CPPFLAGS=['-std=c++11', '-Wall'])
 
-env.Program('streetDog - core', [Glob('threads/*.cpp'), Glob('*.cpp')], 
-            LIBS=Split('boost_system pthread rt boost_thread boost_date_time mysqlcppconn-static mysqlclient'), 
-            LIBPATH='../libs/')
+def build_mysql_lib(target=None, source=None, env=None):
+    os.system('make -C {0} mysqlcppconn-static'.format(source[0]))
+    os.system('mv {0}/driver/libmysqlcppconn-static.a {1}'.format(source[0], target[0]))
+    
+def clean_mysql_lib(target=None, source=None, env=None):
+    os.system('make -C {0} clean'.format(source[0]))
+
+mysqllib = env.Command(libpath + 'libmysqlcppconn-static.a', 'mysql-connector-c++-1.0.5/', build_mysql_lib)
+
+core = env.Program('streetDog - core', [Glob('threads/*.cpp'), Glob('*.cpp')], 
+            LIBS=[Split('boost_system pthread rt boost_thread boost_date_time mysqlcppconn-static mysqlclient')], 
+            LIBPATH=libpath)
+
+env.Depends(core, mysqllib)
+
+Default(core)
