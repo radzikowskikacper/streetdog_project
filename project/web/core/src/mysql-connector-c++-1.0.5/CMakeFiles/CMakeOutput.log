@@ -1,0 +1,548 @@
+The system is: Linux - 3.11.0-22-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/2.8.11.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/2.8.11.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3018687167/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3018687167.dir/build.make CMakeFiles/cmTryCompileExec3018687167.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3018687167.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3018687167.dir/testCCompiler.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3018687167
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3018687167.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3018687167.dir/testCCompiler.c.o  -o cmTryCompileExec3018687167 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec19872752/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec19872752.dir/build.make CMakeFiles/cmTryCompileExec19872752.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec19872752
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec19872752.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec19872752 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.1-10ubuntu9' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec19872752' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec19872752 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec19872752/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec19872752.dir/build.make CMakeFiles/cmTryCompileExec19872752.dir/build]
+  ignore line: [make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec19872752]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec19872752.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec19872752 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.1-10ubuntu9' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec19872752' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec19872752 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec19872752] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec19872752.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3172216389/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3172216389.dir/build.make CMakeFiles/cmTryCompileExec3172216389.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3172216389.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3172216389.dir/testCXXCompiler.cxx.o -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3172216389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3172216389.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec3172216389.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3172216389 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec965425249/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec965425249.dir/build.make CMakeFiles/cmTryCompileExec965425249.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec965425249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec965425249.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec965425249 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.1-10ubuntu9' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec965425249' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec965425249 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec965425249/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec965425249.dir/build.make CMakeFiles/cmTryCompileExec965425249.dir/build]
+  ignore line: [make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec965425249]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec965425249.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec965425249 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.1-10ubuntu9' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec965425249' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec965425249 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec965425249] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec965425249.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2231317069/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2231317069.dir/build.make CMakeFiles/cmTryCompileExec2231317069.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2231317069.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2231317069.dir/CheckIncludeFiles.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2231317069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2231317069.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2231317069.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2231317069 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec469823416/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec469823416.dir/build.make CMakeFiles/cmTryCompileExec469823416.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec469823416.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec469823416.dir/CheckIncludeFiles.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec469823416
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec469823416.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec469823416.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec469823416 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1416792792/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1416792792.dir/build.make CMakeFiles/cmTryCompileExec1416792792.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1416792792.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1416792792.dir/CheckIncludeFile.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1416792792
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1416792792.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1416792792.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1416792792 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4115603218/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4115603218.dir/build.make CMakeFiles/cmTryCompileExec4115603218.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4115603218.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4115603218.dir/CheckIncludeFile.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4115603218
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4115603218.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec4115603218.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4115603218 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1285351244/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1285351244.dir/build.make CMakeFiles/cmTryCompileExec1285351244.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1285351244.dir/HAVE_INT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1285351244.dir/HAVE_INT8_T.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_INT8_T.c
+Linking C executable cmTryCompileExec1285351244
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1285351244.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1285351244.dir/HAVE_INT8_T.c.o  -o cmTryCompileExec1285351244 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec319650718/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec319650718.dir/build.make CMakeFiles/cmTryCompileExec319650718.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec319650718.dir/HAVE_UINT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec319650718.dir/HAVE_UINT8_T.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_UINT8_T.c
+Linking C executable cmTryCompileExec319650718
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec319650718.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec319650718.dir/HAVE_UINT8_T.c.o  -o cmTryCompileExec319650718 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2359911510/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2359911510.dir/build.make CMakeFiles/cmTryCompileExec2359911510.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2359911510.dir/HAVE_INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2359911510.dir/HAVE_INT16_T.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_INT16_T.c
+Linking C executable cmTryCompileExec2359911510
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2359911510.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2359911510.dir/HAVE_INT16_T.c.o  -o cmTryCompileExec2359911510 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2021125296/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2021125296.dir/build.make CMakeFiles/cmTryCompileExec2021125296.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2021125296.dir/HAVE_UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2021125296.dir/HAVE_UINT16_T.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+Linking C executable cmTryCompileExec2021125296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2021125296.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2021125296.dir/HAVE_UINT16_T.c.o  -o cmTryCompileExec2021125296 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4187286011/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4187286011.dir/build.make CMakeFiles/cmTryCompileExec4187286011.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4187286011.dir/HAVE_INT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4187286011.dir/HAVE_INT32_T.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_INT32_T.c
+Linking C executable cmTryCompileExec4187286011
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4187286011.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec4187286011.dir/HAVE_INT32_T.c.o  -o cmTryCompileExec4187286011 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec470479847/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec470479847.dir/build.make CMakeFiles/cmTryCompileExec470479847.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec470479847.dir/HAVE_UINT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec470479847.dir/HAVE_UINT32_T.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_UINT32_T.c
+Linking C executable cmTryCompileExec470479847
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec470479847.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec470479847.dir/HAVE_UINT32_T.c.o  -o cmTryCompileExec470479847 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec336029379/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec336029379.dir/build.make CMakeFiles/cmTryCompileExec336029379.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec336029379.dir/HAVE_INT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec336029379.dir/HAVE_INT64_T.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_INT64_T.c
+Linking C executable cmTryCompileExec336029379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec336029379.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec336029379.dir/HAVE_INT64_T.c.o  -o cmTryCompileExec336029379 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2781128175/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2781128175.dir/build.make CMakeFiles/cmTryCompileExec2781128175.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2781128175.dir/HAVE_UINT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2781128175.dir/HAVE_UINT64_T.c.o   -c /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CheckTypeSize/HAVE_UINT64_T.c
+Linking C executable cmTryCompileExec2781128175
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2781128175.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2781128175.dir/HAVE_UINT64_T.c.o  -o cmTryCompileExec2781128175 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtold exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec567729054/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec567729054.dir/build.make CMakeFiles/cmTryCompileExec567729054.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec567729054.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtold   -o CMakeFiles/cmTryCompileExec567729054.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec567729054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec567729054.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=strtold    CMakeFiles/cmTryCompileExec567729054.dir/CheckFunctionExists.c.o  -o cmTryCompileExec567729054 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1721438534/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1721438534.dir/build.make CMakeFiles/cmTryCompileExec1721438534.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1721438534.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTryCompileExec1721438534.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1721438534
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1721438534.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=strtol    CMakeFiles/cmTryCompileExec1721438534.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1721438534 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3577107798/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3577107798.dir/build.make CMakeFiles/cmTryCompileExec3577107798.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3577107798.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTryCompileExec3577107798.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3577107798
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3577107798.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTryCompileExec3577107798.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3577107798 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3858364879/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3858364879.dir/build.make CMakeFiles/cmTryCompileExec3858364879.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3858364879.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTryCompileExec3858364879.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3858364879
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3858364879.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=strtoul    CMakeFiles/cmTryCompileExec3858364879.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3858364879 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec860755714/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec860755714.dir/build.make CMakeFiles/cmTryCompileExec860755714.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec860755714.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTryCompileExec860755714.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec860755714
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec860755714.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTryCompileExec860755714.dir/CheckFunctionExists.c.o  -o cmTryCompileExec860755714 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoimax exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec768557582/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec768557582.dir/build.make CMakeFiles/cmTryCompileExec768557582.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec768557582.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoimax   -o CMakeFiles/cmTryCompileExec768557582.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec768557582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec768557582.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=strtoimax    CMakeFiles/cmTryCompileExec768557582.dir/CheckFunctionExists.c.o  -o cmTryCompileExec768557582 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoumax exists passed with the following output:
+Change Dir: /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec153522416/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec153522416.dir/build.make CMakeFiles/cmTryCompileExec153522416.dir/build
+make[1]: Entering directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec153522416.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoumax   -o CMakeFiles/cmTryCompileExec153522416.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec153522416
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec153522416.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=strtoumax    CMakeFiles/cmTryCompileExec153522416.dir/CheckFunctionExists.c.o  -o cmTryCompileExec153522416 -rdynamic 
+make[1]: Leaving directory `/media/big/projekty/mine/streetdog/project/web/core/src/mysql-connector-c++-1.0.5/CMakeFiles/CMakeTmp'
+
+

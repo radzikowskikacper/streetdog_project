@@ -15,6 +15,8 @@
 #include <cppconn/prepared_statement.h>
 #include <cppconn/parameter_metadata.h>
 
+#include <stdio.h>
+
 #include "mysql_private_iface.h"
 #include "mysql_util.h"
 
