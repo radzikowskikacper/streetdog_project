@@ -4,3 +4,7 @@
 .cproject
 .pydevproject
 .settings
+
+.sconsign.dblite
+
+*.o

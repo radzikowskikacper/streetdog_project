@@ -1,0 +1,6 @@
+env = Environment()
+env.Append(CPPFLAGS=['-std=c++11', '-Wall'])
+
+env.Program('streetDog - core', [Glob('threads/*.cpp'), Glob('*.cpp')], 
+            LIBS=['boost_system', 'pthread', 'rt', 'boost_thread', 'boost_date_time', 'mysqlcppconn-static', 'mysqlclient'], 
+            LIBPATH='../libs/mysql/')

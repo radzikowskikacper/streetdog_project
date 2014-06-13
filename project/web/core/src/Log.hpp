@@ -20,25 +20,12 @@ class Log
 		boost::container::vector<std::ostream*> streams;
 
 	public:
-
 		inline void addOutputStream(std::ostream& s)
 		{
 			streams.push_back(&s);
 		}
 
-		inline void log(std::string msg)
-		{
-			boost::posix_time::ptime now = boost::posix_time::second_clock::local_time();
-
-			std::stringstream msgs;
-
-			msgs << "[ " << now << " ] " << msg << "\n";
-			msg = msgs.str();
-
-			//for(std::ostream* o : streams)
-				std::cout << msg;
-
-		}
+		void log(std::string msg);
 };
 
 #endif /* LOG_HPP_ */
