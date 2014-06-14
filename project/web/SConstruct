@@ -1,0 +1,5 @@
+#databridge = File('server/c++databridge.o')
+cppcore = SConscript('core/src/SConstruct')
+system = [cppcore]
+
+Default(system)

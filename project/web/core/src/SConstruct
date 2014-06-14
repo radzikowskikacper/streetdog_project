@@ -7,8 +7,8 @@ mysqlsrcdir = env.Dir('mysql-connector-c++-1.0.5/')
 
 #targets
 libsdir = env.Dir('../libs/')
-mysqllib = env.File(libsdir.path + '/libmysqlcppconn-static.a')
-mysqlmkfile = env.File(mysqlsrcdir.path + '/Makefile')
+mysqllib = env.File(libsdir.abspath + '/libmysqlcppconn-static.a')
+mysqlmkfile = env.File(mysqlsrcdir.abspath + '/Makefile')
 core = env.File('streetDog - core')
 
 def build_sql_makefile(target=None, source=None, env=None):
@@ -17,15 +17,15 @@ def build_sql_makefile(target=None, source=None, env=None):
     os.chdir('..')
 
 def build_mysql_lib(target=None, source=None, env=None):
-    os.system('make -C {0} mysqlcppconn-static'.format(source[0].path))
-    os.system('mv {0}/driver/libmysqlcppconn-static.a {1}'.format(source[0], target[0]))
+    os.system('make -C {0} mysqlcppconn-static'.format(source[0].abspath))
+    os.system('mv {0}/driver/libmysqlcppconn-static.a {1}'.format(source[0].abspath, target[0].abspath))
 
 env.Command(mysqlmkfile, [], build_sql_makefile)
 env.Command(mysqllib, mysqlsrcdir, build_mysql_lib)
 
 env.Program(core, [Glob('threads/*.cpp'), Glob('*.cpp')], 
             LIBS=Split('boost_system pthread rt boost_thread boost_date_time mysqlcppconn-static mysqlclient'), 
-            LIBPATH=libsdir, CPPFLAGS=['-std=c++11', '-Wall'])
+            LIBPATH=libsdir.abspath, CPPFLAGS=['-std=c++11', '-Wall'])
 
 env.Depends(mysqllib, mysqlmkfile)
 env.Depends(libsdir, mysqllib)

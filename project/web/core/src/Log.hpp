@@ -18,10 +18,11 @@ class Log
 {
 	private:
 		boost::container::vector<std::ostream*> streams;
-
+		int a;
 	public:
 		inline void addOutputStream(std::ostream& s)
 		{
+			a = 6;
 			streams.push_back(&s);
 		}
 
