@@ -4,5 +4,5 @@
 # Screen 0: Start 'top'
 # Screen 1: Start 'tail -F /var/log/syslog'
 
-screen -t core    0 './core/Debug/streetGuard - core'
+screen -t core    0 './core/src/streetDog - core'
 screen -t server 1 python2 server/src/startup.py

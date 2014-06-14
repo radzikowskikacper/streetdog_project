@@ -69,7 +69,7 @@ long double getHigherCoordinate(long double a, long double b)
 		PyErr_SetObject(custom_track_exception, pythonExceptionInstance.ptr());
 	}
 
-	BOOST_PYTHON_MODULE(databridge)
+	BOOST_PYTHON_MODULE(libdatabridge)
 	{
 		using namespace boost::python;
 

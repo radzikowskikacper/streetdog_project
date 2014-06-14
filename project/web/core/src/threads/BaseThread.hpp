@@ -60,7 +60,7 @@ class BaseThread
 		BaseThread(std::string name_) : name(name_)
 		{
 			loadSharedMemory();
-			logThreadMessage("Created thread");
+			//logThreadMessage("Created thread");
 		}
 
 		virtual ~BaseThread()

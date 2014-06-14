@@ -1,5 +1,11 @@
-#databridge = File('server/c++databridge.o')
+system = Dir('.')
 cppcore = SConscript('core/src/SConstruct')
-system = [cppcore]
+
+databridge = SharedLibrary('server/src/databridge', Split('c++databridge.cpp core/src/threads/BaseThread.cpp core/src/Log.cpp'), 
+                           CPPFLAGS=Split('-std=c++11 -Wall'), CPPPATH='/usr/include/python2.7', 
+                           LIBS=Split('boost_python rt boost_system boost_thread'))
+
+Depends(system, cppcore)
+Depends(system, databridge)
 
 Default(system)
