@@ -18,11 +18,7 @@ class DataThread : public BaseThread
 		void allocateSharedMemory();
 
 	public:
-		DataThread(std::string name_)//, boost::shared_ptr<Log> l_) :
-				:BaseThread(name_)//, l_)
-		{
-
-		}
+		DataThread(std::string name_);
 
 		void operator()();
 };

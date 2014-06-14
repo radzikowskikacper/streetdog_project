@@ -2,29 +2,33 @@ import os
 
 env = Environment()
 
-libdir = env.Dir('../libs/')
+#sources
 mysqlsrcdir = env.Dir('mysql-connector-c++-1.0.5/')
 
-env.Append(CPPFLAGS=['-std=c++11', '-Wall'])
+#targets
+libsdir = env.Dir('../libs/')
+mysqllib = env.File(libsdir.path + '/libmysqlcppconn-static.a')
+mysqlmkfile = env.File(mysqlsrcdir.path + '/Makefile')
+core = env.File('streetDog - core')
 
 def build_sql_makefile(target=None, source=None, env=None):
     os.chdir(mysqlsrcdir.path)
-    os.system('cmake -DCMAKE_INSTALL_PREFIX={0}'.format(libdir))
+    os.system('cmake -DCMAKE_INSTALL_PREFIX={0}'.format(libsdir))
     os.chdir('..')
 
 def build_mysql_lib(target=None, source=None, env=None):
     os.system('make -C {0} mysqlcppconn-static'.format(source[0].path))
     os.system('mv {0}/driver/libmysqlcppconn-static.a {1}'.format(source[0], target[0]))
 
-mysqlmkfile = env.Command(mysqlsrcdir.path + '/Makefile', [], build_sql_makefile)
-mysqllib = env.Command(libdir.path + '/libmysqlcppconn-static.a', mysqlsrcdir, build_mysql_lib)
+env.Command(mysqlmkfile, [], build_sql_makefile)
+env.Command(mysqllib, mysqlsrcdir, build_mysql_lib)
 
-core = env.Program('streetDog - core', [Glob('threads/*.cpp'), Glob('*.cpp')], 
-            LIBS=[Split('boost_system pthread rt boost_thread boost_date_time mysqlcppconn-static mysqlclient')], 
-            LIBPATH=libdir)
+env.Program(core, [Glob('threads/*.cpp'), Glob('*.cpp')], 
+            LIBS=Split('boost_system pthread rt boost_thread boost_date_time mysqlcppconn-static mysqlclient'), 
+            LIBPATH=libsdir, CPPFLAGS=['-std=c++11', '-Wall'])
 
 env.Depends(mysqllib, mysqlmkfile)
-env.Depends(libdir, mysqllib)
-env.Depends(core, libdir)
+env.Depends(libsdir, mysqllib)
+env.Depends(core, libsdir)
 
 Default(core)

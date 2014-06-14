@@ -7,6 +7,10 @@
 
 #include "DataThread.hpp"
 
+DataThread::DataThread(std::string name_)//, boost::shared_ptr<Log> l_) :
+:BaseThread(name_)
+{}
+
 void DataThread::operator()()
 {
 	logThreadMessage("Entered thread");
