@@ -5,4 +5,4 @@
 # Screen 1: Start 'tail -F /var/log/syslog'
 
 screen -t core    0 './core/src/streetDog - core'
-screen -t server 1 python2 server/src/startup.py
+screen -t server 0 python2 server/src/startup.py

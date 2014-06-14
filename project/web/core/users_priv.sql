@@ -2,10 +2,10 @@
 
 
 -- add zpr's user
-DROP USER 'zpr'@'localhost';
-CREATE USER 'zpr'@'localhost' IDENTIFIED BY 'zpr';
+DROP USER 'streetdog'@'localhost';
+CREATE USER 'streetdog'@'localhost' IDENTIFIED BY 'kiloslim';
 
 
 -- grant privileges to zpr
-GRANT ALL PRIVILEGES ON streetguard.* TO 'zpr'@'localhost';
+GRANT ALL PRIVILEGES ON streetdog.* TO 'streetdog'@'localhost';
 

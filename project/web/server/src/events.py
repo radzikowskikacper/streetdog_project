@@ -6,8 +6,8 @@ Created on Dec 25, 2013
 
 import json, web
 from utils import data
-from databridge import EventMergedException
-from databridge import BadUserIDException
+from libdatabridge import EventMergedException
+from libdatabridge import BadUserIDException
 
 class events:
     def POST(self):

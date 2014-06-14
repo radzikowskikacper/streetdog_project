@@ -3,12 +3,12 @@
 
 
 -- add new database
-DROP DATABASE IF EXISTS streetguard;
-CREATE DATABASE streetguard;
+DROP DATABASE IF EXISTS streetdog;
+CREATE DATABASE streetdog;
 
 
 -- set database
-USE streetguard;
+USE streetdog;
 
 
 -- create events table

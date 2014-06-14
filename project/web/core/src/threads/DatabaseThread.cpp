@@ -8,9 +8,9 @@
 #include "DatabaseThread.hpp"
 
 const std::string DatabaseThread:: DBHOST 		= 		"tcp://127.0.0.1:3306";
-const std::string DatabaseThread:: PASSWD 		= 		"zpr";
-const std::string DatabaseThread:: LOGIN 		= 		"zpr";
-const std::string DatabaseThread:: DATABASE 	= 		"streetguard";
+const std::string DatabaseThread:: PASSWD 		= 		"kiloslim";
+const std::string DatabaseThread:: LOGIN 		= 		"streetdog";
+const std::string DatabaseThread:: DATABASE 	= 		"streetdog";
 
 const sql::SQLString DatabaseThread::SELECT_USERS_QUERY		 = "SELECT * FROM users ORDER BY id";
 const sql::SQLString DatabaseThread::SELECT_ROUTES_QUERY	 = "SELECT * FROM routes ORDER BY user_id, id";

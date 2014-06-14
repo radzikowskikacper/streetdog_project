@@ -6,8 +6,8 @@ Created on Jan 15, 2014
 
 import web, json
 from utils import data
-from databridge import BadUserIDException
-from databridge import NullPointerRouteException
+from libdatabridge import BadUserIDException
+from libdatabridge import NullPointerRouteException
 
 class poller:
     def GET(self, uid):        
